@@ -23,4 +23,5 @@ pipeline {
                 echo 'make deploy'
             }
         }
+   }
 }
