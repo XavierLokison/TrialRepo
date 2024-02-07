@@ -4,6 +4,7 @@ pipeline {
     stages {
 	stage('checkout') {
 	    steps {
+		// Adding the line to check whether webhook trigger works or not
 		echo "Checckout Successful"
 	    }
 	}
