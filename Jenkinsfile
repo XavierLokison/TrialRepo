@@ -2,6 +2,11 @@ pipeline {
     agent any
     
     stages {
+	stage('checkout') {
+	    steps {
+		echo "Checckout Successful"
+	    }
+	}
         stage('Build') {
             steps {
                 echo 'make clean build'
